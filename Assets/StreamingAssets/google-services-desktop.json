@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "503750100852",
+    "project_id": "pico-terra",
+    "storage_bucket": "pico-terra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503750100852:ios:f283e2ef6d8a1a43064e21",
+        "android_client_info": {
+          "package_name": "com.thelighthouse.picoterra"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqph9vQOYzXPf3iarU72pe_KnbTVpmr80"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

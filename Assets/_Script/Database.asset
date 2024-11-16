@@ -1,0 +1,2978 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 929cd9ea11b72482d8537224cf1d6dc5, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  objectsData:
+  - <Name>k__BackingField: Grass Field
+    <ID>k__BackingField: 0
+    <Type>k__BackingField: '-'
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: dc86512fc4e5e4833b8d85d22e1cc332,
+      type: 3}
+    <LevelMainHall>k__BackingField: 1
+    <AirPolution>k__BackingField: 0
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0.2
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Nature
+    <PopulationNeed>k__BackingField: 3
+    <CurrencyNeed>k__BackingField: 500
+    <BuildingTime>k__BackingField: 2.1
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 3c5efdc1c776b4c18b882bf54b75777d,
+      type: 3}
+    <BuildingDescription>k__BackingField: "The grass you tend to isn't just green\u2014it's
+      our city's natural air filter! By keeping it healthy, you're reducing pollution
+      and making our air cleaner and fresher. Your green touch is making a big difference!"
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Rocky Grass Field
+    <ID>k__BackingField: 1
+    <Type>k__BackingField: '-'
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 187ad55958ccf4a95abb69779e4cc8c6,
+      type: 3}
+    <LevelMainHall>k__BackingField: 1
+    <AirPolution>k__BackingField: 0.15
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Nature
+    <PopulationNeed>k__BackingField: 2
+    <CurrencyNeed>k__BackingField: 500
+    <BuildingTime>k__BackingField: 1.8
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: e4f2198856c7546c697b341c981667b8,
+      type: 3}
+    <BuildingDescription>k__BackingField: Here, rocks come to you naturally. Using
+      these rocks reduces pollution. They build our city without harming the environment.
+      Thanks for making our home cleaner and greener!
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Forest
+    <ID>k__BackingField: 2
+    <Type>k__BackingField: '-'
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: e7c0f13fb7650401e8031ddaa6086b71,
+      type: 3}
+    <LevelMainHall>k__BackingField: 1
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.15
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Nature
+    <PopulationNeed>k__BackingField: 2
+    <CurrencyNeed>k__BackingField: 500
+    <BuildingTime>k__BackingField: 1.8
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 855859df8b9594b2d83f44b1990fe5b9,
+      type: 3}
+    <BuildingDescription>k__BackingField: Every tree you plant in the city is a high-five
+      to nature!
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Water Hyacinth
+    <ID>k__BackingField: 3
+    <Type>k__BackingField: '-'
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 7179c18d7da8d4baf8b476019ceafcbc,
+      type: 3}
+    <LevelMainHall>k__BackingField: 1
+    <AirPolution>k__BackingField: 0.15
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0.4
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Nature
+    <PopulationNeed>k__BackingField: 2
+    <CurrencyNeed>k__BackingField: 500
+    <BuildingTime>k__BackingField: 1.8
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: a8a4bc85497c94ec09e91ff9a7040ba3,
+      type: 3}
+    <BuildingDescription>k__BackingField: Hyacinth Plant isn't just a garden; it's
+      a pollution-fighting powerhouse. Those lovely hyacinths you grow? They're like
+      nature's own air fresheners
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Farm Barn LV1
+    <ID>k__BackingField: 4
+    <Type>k__BackingField: Farm
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 15291fa7d771248e38a76b8fecce5103,
+      type: 3}
+    <LevelMainHall>k__BackingField: 1
+    <AirPolution>k__BackingField: 0.1
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 4
+    <CurrencyNeed>k__BackingField: 100
+    <BuildingTime>k__BackingField: 0.3
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 5
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: dfa74d21948d44f3f9b798917a80216b,
+      type: 3}
+    <BuildingDescription>k__BackingField: "Your Farm Barn is like a cozy hug for
+      the land. You grow the yummiest organic crops, making sure no tummy in the
+      city rumbles. Your farm isn\u2019t just a barn; it\u2019s a feast waiting to
+      happen!"
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Farm Barn LV1 WM 1
+    <ID>k__BackingField: 5
+    <Type>k__BackingField: Farm
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 9054064eba51a4fa8be1cf877895f158,
+      type: 3}
+    <LevelMainHall>k__BackingField: 3
+    <AirPolution>k__BackingField: 0
+    <SoilPolution>k__BackingField: 0.3
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1000
+    <BuildingTime>k__BackingField: 0.3
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 6750f4d4ddb1943d8aba4be1bf176e69,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Farm Barn LV1 WM 2
+    <ID>k__BackingField: 6
+    <Type>k__BackingField: Farm
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 41344055301c14d21a2247ecfde95b74,
+      type: 3}
+    <LevelMainHall>k__BackingField: 3
+    <AirPolution>k__BackingField: 0
+    <SoilPolution>k__BackingField: 0.5
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 5000
+    <BuildingTime>k__BackingField: 0.3
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 7624f890829ab4a82833e130d36092e4,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Farm Barn LV1 WM 3
+    <ID>k__BackingField: 7
+    <Type>k__BackingField: Farm
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 3f6c2701faed7426c84206d7a2e50cf5,
+      type: 3}
+    <LevelMainHall>k__BackingField: 3
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0.5
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 10000
+    <BuildingTime>k__BackingField: 0.3
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 08177cf9a2021463386672c3f3251829,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Farm Barn LV2
+    <ID>k__BackingField: 8
+    <Type>k__BackingField: Farm
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 0492c93b2abdb4c7c84e6cb29372ad9c,
+      type: 3}
+    <LevelMainHall>k__BackingField: 4
+    <AirPolution>k__BackingField: 0.1
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 2
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 12
+    <CurrencyNeed>k__BackingField: 500
+    <BuildingTime>k__BackingField: 3
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 7
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: cdc77ede2f11847bbb1e6aa2c7ac1e4d,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Farm Barn LV2 WM 1
+    <ID>k__BackingField: 9
+    <Type>k__BackingField: Farm
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 15ffc0ff77cde4aa5a303cda8dd4381a,
+      type: 3}
+    <LevelMainHall>k__BackingField: 4
+    <AirPolution>k__BackingField: 0
+    <SoilPolution>k__BackingField: 0.3
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1000
+    <BuildingTime>k__BackingField: 3
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Farm Barn LV2 WM 2
+    <ID>k__BackingField: 10
+    <Type>k__BackingField: Farm
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: cf1cb378aba7b44ffb5783391ba10072,
+      type: 3}
+    <LevelMainHall>k__BackingField: 4
+    <AirPolution>k__BackingField: 0
+    <SoilPolution>k__BackingField: 0.5
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 5000
+    <BuildingTime>k__BackingField: 3
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Farm Barn LV2 WM 3
+    <ID>k__BackingField: 11
+    <Type>k__BackingField: Farm
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 5edfb64073dc44756a6160d674266a0a,
+      type: 3}
+    <LevelMainHall>k__BackingField: 4
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0.5
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 10000
+    <BuildingTime>k__BackingField: 3
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Farm Barn LV3
+    <ID>k__BackingField: 12
+    <Type>k__BackingField: Farm
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 4b9294b19f15042b8a8f4d2a98b72c27,
+      type: 3}
+    <LevelMainHall>k__BackingField: 7
+    <AirPolution>k__BackingField: 0.2
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 3
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 18
+    <CurrencyNeed>k__BackingField: 2500
+    <BuildingTime>k__BackingField: 27
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 10
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: a35dacdd42d6843128c49e66055af32f,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Farm Barn LV3 WM 1
+    <ID>k__BackingField: 13
+    <Type>k__BackingField: Farm
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 1e12f2c98bbb3456e9c5e82ecb7a360b,
+      type: 3}
+    <LevelMainHall>k__BackingField: 7
+    <AirPolution>k__BackingField: 0
+    <SoilPolution>k__BackingField: 0.3
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1000
+    <BuildingTime>k__BackingField: 27
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Farm Barn LV3 WM 2
+    <ID>k__BackingField: 14
+    <Type>k__BackingField: Farm
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 0492c93b2abdb4c7c84e6cb29372ad9c,
+      type: 3}
+    <LevelMainHall>k__BackingField: 7
+    <AirPolution>k__BackingField: 0
+    <SoilPolution>k__BackingField: 0.5
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 5000
+    <BuildingTime>k__BackingField: 27
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Farm Barn LV3 WM 3
+    <ID>k__BackingField: 15
+    <Type>k__BackingField: Farm
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 71dbba06c1e394fe5b99ded50ac00a71,
+      type: 3}
+    <LevelMainHall>k__BackingField: 7
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0.5
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 10000
+    <BuildingTime>k__BackingField: 27
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Mine LV1
+    <ID>k__BackingField: 16
+    <Type>k__BackingField: Minerals
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 4b2fe296ddd3745dbbea0d6f3058408d,
+      type: 3}
+    <LevelMainHall>k__BackingField: 2
+    <AirPolution>k__BackingField: 0.2
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0.2
+    <Currency>k__BackingField: 3
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 8
+    <CurrencyNeed>k__BackingField: 500
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 10
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 19bdd94cbf852475f8f79b95a88dfdb7,
+      type: 3}
+    <BuildingDescription>k__BackingField: Deep in your Mineral Mine, you dig up treasures
+      while keeping our planet smiling. You're like a real-life superhero, mining
+      minerals for our city's needs!
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Mine LV1 WM 1
+    <ID>k__BackingField: 17
+    <Type>k__BackingField: Minerals
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 0eee7d2ed563742c4874317792ee052d,
+      type: 3}
+    <LevelMainHall>k__BackingField: 2
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.1
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1000
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Mine LV1 WM 2
+    <ID>k__BackingField: 18
+    <Type>k__BackingField: Minerals
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 8e0a12ec9386c40df856810766862ab1,
+      type: 3}
+    <LevelMainHall>k__BackingField: 2
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.1
+    <WaterPolution>k__BackingField: 0.5
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 5000
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Mine LV1 WM 3
+    <ID>k__BackingField: 19
+    <Type>k__BackingField: Minerals
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 1b14899916a6349958c00943fff6b5b9,
+      type: 3}
+    <LevelMainHall>k__BackingField: 2
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.6
+    <WaterPolution>k__BackingField: 0.5
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 10000
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Mine LV2
+    <ID>k__BackingField: 20
+    <Type>k__BackingField: Minerals
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 9cc987cba4bb04e3cb74e57eb545c287,
+      type: 3}
+    <LevelMainHall>k__BackingField: 3
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.3
+    <WaterPolution>k__BackingField: 0.5
+    <Currency>k__BackingField: 4
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 16
+    <CurrencyNeed>k__BackingField: 1000
+    <BuildingTime>k__BackingField: 6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 15
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 593d1557066054cff881d2a194cc3b6a,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Mine LV2 WM 1
+    <ID>k__BackingField: 21
+    <Type>k__BackingField: Minerals
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: a7c5ec535f6e04fc3b0e94993c9ca8e4,
+      type: 3}
+    <LevelMainHall>k__BackingField: 3
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.1
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1000
+    <BuildingTime>k__BackingField: 6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Mine LV2 WM 2
+    <ID>k__BackingField: 22
+    <Type>k__BackingField: Minerals
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: be38a52a0937f4e5683fe72a27ec8068,
+      type: 3}
+    <LevelMainHall>k__BackingField: 3
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.1
+    <WaterPolution>k__BackingField: 0.5
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 5000
+    <BuildingTime>k__BackingField: 6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Mine LV2 WM 3
+    <ID>k__BackingField: 23
+    <Type>k__BackingField: Minerals
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: bd48a39836797418585e18150675d022,
+      type: 3}
+    <LevelMainHall>k__BackingField: 3
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.6
+    <WaterPolution>k__BackingField: 0.5
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 10000
+    <BuildingTime>k__BackingField: 6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Mine LV3
+    <ID>k__BackingField: 24
+    <Type>k__BackingField: Minerals
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: a3efdf23ffa934abb880b5cbad1a9179,
+      type: 3}
+    <LevelMainHall>k__BackingField: 6
+    <AirPolution>k__BackingField: 0.8
+    <SoilPolution>k__BackingField: 0.3
+    <WaterPolution>k__BackingField: 0.3
+    <Currency>k__BackingField: 5
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 24
+    <CurrencyNeed>k__BackingField: 3000
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 20
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 5ec546adc0dd940719d75a51e9219c8c,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Mine LV3 WM 1
+    <ID>k__BackingField: 25
+    <Type>k__BackingField: Minerals
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 7f2ff90b6fa824877aa26e85cecde39e,
+      type: 3}
+    <LevelMainHall>k__BackingField: 6
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.1
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1000
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Mine LV3 WM 2
+    <ID>k__BackingField: 26
+    <Type>k__BackingField: Minerals
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 70ee0dcc147444614aa4df11b0ce8655,
+      type: 3}
+    <LevelMainHall>k__BackingField: 6
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.1
+    <WaterPolution>k__BackingField: 0.5
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 5000
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Mine LV3 WM 3
+    <ID>k__BackingField: 27
+    <Type>k__BackingField: Minerals
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 013845150fde6414bafd2fa3e2062c37,
+      type: 3}
+    <LevelMainHall>k__BackingField: 6
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.6
+    <WaterPolution>k__BackingField: 0.5
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 10000
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Power Plant LV1
+    <ID>k__BackingField: 28
+    <Type>k__BackingField: Electricity
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 20d6026262b054bec95a729a95820301,
+      type: 3}
+    <LevelMainHall>k__BackingField: 2
+    <AirPolution>k__BackingField: 0.2
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 1
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 8
+    <CurrencyNeed>k__BackingField: 400
+    <BuildingTime>k__BackingField: 0.45
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 10
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 67dfe0cbbf1de42f4936386243b21f83,
+      type: 3}
+    <BuildingDescription>k__BackingField: Electric Power Station is the powerhouse
+      that making sure our city stays lit
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Power Plant LV1 WM 1
+    <ID>k__BackingField: 29
+    <Type>k__BackingField: Electricity
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: e2e0c00c70e1a4383ba326084c3a398f,
+      type: 3}
+    <LevelMainHall>k__BackingField: 2
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1200
+    <BuildingTime>k__BackingField: 0.45
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Power Plant LV1 WM 2
+    <ID>k__BackingField: 30
+    <Type>k__BackingField: Electricity
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 9623eb82bb8644675b12b225b8499aca,
+      type: 3}
+    <LevelMainHall>k__BackingField: 2
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 6000
+    <BuildingTime>k__BackingField: 0.45
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Power Plant LV1 WM 3
+    <ID>k__BackingField: 31
+    <Type>k__BackingField: Electricity
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: ac4058056929547b5b25b2a7cc46c2a3,
+      type: 3}
+    <LevelMainHall>k__BackingField: 2
+    <AirPolution>k__BackingField: 0.6
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 11000
+    <BuildingTime>k__BackingField: 0.45
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Power Plant LV2
+    <ID>k__BackingField: 32
+    <Type>k__BackingField: Electricity
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 20838a553ee17433bb618cfe65dfbfa4,
+      type: 3}
+    <LevelMainHall>k__BackingField: 5
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 2
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 16
+    <CurrencyNeed>k__BackingField: 900
+    <BuildingTime>k__BackingField: 9
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 15
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: d61bb5e1ad66441eebabe01761bf5a11,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Power Plant LV2 WM 1
+    <ID>k__BackingField: 33
+    <Type>k__BackingField: Electricity
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 785af92400b104b17bee663f5b52c8e0,
+      type: 3}
+    <LevelMainHall>k__BackingField: 5
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1200
+    <BuildingTime>k__BackingField: 9
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Power Plant LV2 WM 2
+    <ID>k__BackingField: 34
+    <Type>k__BackingField: Electricity
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: b30055ebac702443eb4262aba0840e6d,
+      type: 3}
+    <LevelMainHall>k__BackingField: 5
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 6000
+    <BuildingTime>k__BackingField: 9
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Power Plant LV2 WM 3
+    <ID>k__BackingField: 35
+    <Type>k__BackingField: Electricity
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 6c90b1a63da0c440ebef87de0b97617d,
+      type: 3}
+    <LevelMainHall>k__BackingField: 5
+    <AirPolution>k__BackingField: 0.6
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 11000
+    <BuildingTime>k__BackingField: 9
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Power Plant LV3
+    <ID>k__BackingField: 36
+    <Type>k__BackingField: Electricity
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: c15a138f7bd9f4f4a95f45b24832af90,
+      type: 3}
+    <LevelMainHall>k__BackingField: 8
+    <AirPolution>k__BackingField: 0.6
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 4
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 8
+    <CurrencyNeed>k__BackingField: 2400
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 20
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 1c4e7a5a29a144375baff7a1936ac3bd,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Power Plant LV3 WM 1
+    <ID>k__BackingField: 37
+    <Type>k__BackingField: Electricity
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: b81dc228b6ba4495894a6216959ebdab,
+      type: 3}
+    <LevelMainHall>k__BackingField: 8
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1200
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Power Plant LV3 WM 2
+    <ID>k__BackingField: 38
+    <Type>k__BackingField: Electricity
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 838f77311ac944742a2c5bbd7f4e4f93,
+      type: 3}
+    <LevelMainHall>k__BackingField: 8
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 6000
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Power Plant LV3 WM 3
+    <ID>k__BackingField: 39
+    <Type>k__BackingField: Electricity
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 10e292f5e2a784ff890c1a9332c6fbfd,
+      type: 3}
+    <LevelMainHall>k__BackingField: 8
+    <AirPolution>k__BackingField: 0.6
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Energy
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 11000
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Market LV1
+    <ID>k__BackingField: 40
+    <Type>k__BackingField: Market
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: dfcd3d9a6569d4965993e1223adf4062,
+      type: 3}
+    <LevelMainHall>k__BackingField: 4
+    <AirPolution>k__BackingField: 0.1
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 2
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 12
+    <CurrencyNeed>k__BackingField: 250
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 3
+    <Mineral>k__BackingField: 2
+    <Electrictiy>k__BackingField: 2
+    <EnergyProduction>k__BackingField: 4
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 7c3078fd99d524fc39a4dbe8508fdc11,
+      type: 3}
+    <BuildingDescription>k__BackingField: "Pico Market is like the heart of our city.
+      You bring farmers, artisans, and foodies together, creating a vibe that\u2019s
+      as warm and providing our people life supplies. You're the reason our people
+      life. "
+    <KendaraanNeed>k__BackingField: Truck
+  - <Name>k__BackingField: Market LV1 WM 1
+    <ID>k__BackingField: 41
+    <Type>k__BackingField: Market
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: ea6b1ef7c6aa7408fac43239256b0bf5,
+      type: 3}
+    <LevelMainHall>k__BackingField: 4
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1700
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 4
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Market LV1 WM 2
+    <ID>k__BackingField: 42
+    <Type>k__BackingField: Market
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 425e7447be02a4f3fbdd0f0eecf6ae95,
+      type: 3}
+    <LevelMainHall>k__BackingField: 4
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 7500
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 4
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Market LV1 WM 3
+    <ID>k__BackingField: 43
+    <Type>k__BackingField: Market
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 91b33d20c6d8440a7bb9e54defb5c0a0,
+      type: 3}
+    <LevelMainHall>k__BackingField: 4
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.6
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 13000
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 4
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Market LV2
+    <ID>k__BackingField: 44
+    <Type>k__BackingField: Market
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: c343504f12d0141579d26b67e903691d,
+      type: 3}
+    <LevelMainHall>k__BackingField: 7
+    <AirPolution>k__BackingField: 0.2
+    <SoilPolution>k__BackingField: 0.3
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 4
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 18
+    <CurrencyNeed>k__BackingField: 2500
+    <BuildingTime>k__BackingField: 6
+    <Food>k__BackingField: 5
+    <Mineral>k__BackingField: 5
+    <Electrictiy>k__BackingField: 5
+    <EnergyProduction>k__BackingField: 6
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 33f4a4b053aa64e02947875a2c796095,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Market LV2 WM 1
+    <ID>k__BackingField: 45
+    <Type>k__BackingField: Market
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 51f99daf836234d92a5d35658daf3048,
+      type: 3}
+    <LevelMainHall>k__BackingField: 7
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1700
+    <BuildingTime>k__BackingField: 0
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 6
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Market LV2 WM 2
+    <ID>k__BackingField: 46
+    <Type>k__BackingField: Market
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 76dc83cd43c3a42c9a4cefceafcdd227,
+      type: 3}
+    <LevelMainHall>k__BackingField: 7
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 7500
+    <BuildingTime>k__BackingField: 0
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 6
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Market LV2 WM 3
+    <ID>k__BackingField: 47
+    <Type>k__BackingField: Market
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 5bd4171b64b0e4350b8b18437a565779,
+      type: 3}
+    <LevelMainHall>k__BackingField: 7
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.6
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 13000
+    <BuildingTime>k__BackingField: 0
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 6
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Market LV3
+    <ID>k__BackingField: 48
+    <Type>k__BackingField: Market
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 7fe16caf3c51f403dac32b465edccc0a,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.5
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 10
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 24
+    <CurrencyNeed>k__BackingField: 5000
+    <BuildingTime>k__BackingField: 36
+    <Food>k__BackingField: 10
+    <Mineral>k__BackingField: 5
+    <Electrictiy>k__BackingField: 10
+    <EnergyProduction>k__BackingField: 8
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 6e891b30c0e314824943bc4d8e54c4f6,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Market LV3 WM 1
+    <ID>k__BackingField: 49
+    <Type>k__BackingField: Market
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 0e31f0061637d489fb818da99d077318,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1700
+    <BuildingTime>k__BackingField: 36
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 8
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Market LV3 WM 2
+    <ID>k__BackingField: 50
+    <Type>k__BackingField: Market
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: a9bc8d3b665084886b3834194cd799fc,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 7500
+    <BuildingTime>k__BackingField: 36
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 8
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Market LV3 WM 3
+    <ID>k__BackingField: 51
+    <Type>k__BackingField: Market
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 22c4b5a29c0034d079ab1f13fbe65213,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.6
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 13000
+    <BuildingTime>k__BackingField: 36
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 8
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Product Factory LV1
+    <ID>k__BackingField: 52
+    <Type>k__BackingField: Factory
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: adb37aa855cc24217b816fad23627690,
+      type: 3}
+    <LevelMainHall>k__BackingField: 5
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 1.2
+    <Currency>k__BackingField: 4
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 18
+    <CurrencyNeed>k__BackingField: 250
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 2
+    <Electrictiy>k__BackingField: 2
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: ee14785e5e3684b26bfd7e3e200af446,
+      type: 3}
+    <BuildingDescription>k__BackingField: You create stuff that lasts and makes our
+      lives better!
+    <KendaraanNeed>k__BackingField: Train
+  - <Name>k__BackingField: Product Factory LV1 WM 1
+    <ID>k__BackingField: 53
+    <Type>k__BackingField: Factory
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: d5fa4b76205fc48e3b63d23632ed65f8,
+      type: 3}
+    <LevelMainHall>k__BackingField: 5
+    <AirPolution>k__BackingField: 0
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0.4
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 2000
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Product Factory LV1 WM 2
+    <ID>k__BackingField: 54
+    <Type>k__BackingField: Factory
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 0d3928006d7b84098b0b7011b659e023,
+      type: 3}
+    <LevelMainHall>k__BackingField: 5
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0.4
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 9000
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Product Factory LV1 WM 3
+    <ID>k__BackingField: 55
+    <Type>k__BackingField: Factory
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: ab2e3838b731f4186841be6691e37398,
+      type: 3}
+    <LevelMainHall>k__BackingField: 5
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0.3
+    <WaterPolution>k__BackingField: 0.6
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 16000
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Product Factory LV2
+    <ID>k__BackingField: 56
+    <Type>k__BackingField: Factory
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: a159145c55b174765a9375e5e7610012,
+      type: 3}
+    <LevelMainHall>k__BackingField: 8
+    <AirPolution>k__BackingField: 0.7
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 1.5
+    <Currency>k__BackingField: 9
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 24
+    <CurrencyNeed>k__BackingField: 2500
+    <BuildingTime>k__BackingField: 6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 4
+    <Electrictiy>k__BackingField: 4
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 63410f84424d044f9b273b9b91aa21ce,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Product Factory LV2 WM 1
+    <ID>k__BackingField: 57
+    <Type>k__BackingField: Factory
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 640af4312c8d54d18a221a59674375e7,
+      type: 3}
+    <LevelMainHall>k__BackingField: 8
+    <AirPolution>k__BackingField: 0
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0.4
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 2000
+    <BuildingTime>k__BackingField: 6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Product Factory LV2 WM 2
+    <ID>k__BackingField: 58
+    <Type>k__BackingField: Factory
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 13411e74f663f455b82ec7c140cc9032,
+      type: 3}
+    <LevelMainHall>k__BackingField: 8
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0.4
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 9000
+    <BuildingTime>k__BackingField: 6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Product Factory LV2 WM 3
+    <ID>k__BackingField: 59
+    <Type>k__BackingField: Factory
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 7dad5e9ed207243b4b9af2b1efb70234,
+      type: 3}
+    <LevelMainHall>k__BackingField: 8
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0.3
+    <WaterPolution>k__BackingField: 0.6
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 16000
+    <BuildingTime>k__BackingField: 6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Product Factory LV3
+    <ID>k__BackingField: 60
+    <Type>k__BackingField: Factory
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: dc511e9c12e094901a8442b7d6602acc,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 1
+    <SoilPolution>k__BackingField: 0.5
+    <WaterPolution>k__BackingField: 2
+    <Currency>k__BackingField: 16
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 36
+    <CurrencyNeed>k__BackingField: 5000
+    <BuildingTime>k__BackingField: 36
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 8
+    <Electrictiy>k__BackingField: 8
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 8752458dcd72d46978f5ecdb9bf8b9ea,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Super Factory WM 1
+    <ID>k__BackingField: 61
+    <Type>k__BackingField: Factory
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 337c88da895dd4060a77c8e0b14634c2,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0.4
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 2000
+    <BuildingTime>k__BackingField: 36
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Super Factory WM 2
+    <ID>k__BackingField: 62
+    <Type>k__BackingField: Factory
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 3aae7bfa265f44f6ba15d7ac5e4dbd3a,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0.4
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 9000
+    <BuildingTime>k__BackingField: 36
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Super Factory WM 3
+    <ID>k__BackingField: 63
+    <Type>k__BackingField: Factory
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 145fbe9bdd73d4ace87ef57f9e5b70c0,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0.3
+    <WaterPolution>k__BackingField: 0.6
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 16000
+    <BuildingTime>k__BackingField: 36
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Factory LV1
+    <ID>k__BackingField: 64
+    <Type>k__BackingField: Garage
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: c68bd545e2960428d995c0adeff0e971,
+      type: 3}
+    <LevelMainHall>k__BackingField: 3
+    <AirPolution>k__BackingField: 0.6
+    <SoilPolution>k__BackingField: 0.5
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 2
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 6
+    <CurrencyNeed>k__BackingField: 500
+    <BuildingTime>k__BackingField: 9
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 5
+    <Electrictiy>k__BackingField: 3
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 7d498f40c9baa4050a61817ee0d2eb48,
+      type: 3}
+    <BuildingDescription>k__BackingField: Helping citizens commute, transport goods,
+      and develop our city. You're not just making vehicles; you're weaving the threads
+      of our city's history, one wheel at a time
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Small Garage WM 1
+    <ID>k__BackingField: 65
+    <Type>k__BackingField: Garage
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 03198c909df4c4e27a0c3589b5e18131,
+      type: 3}
+    <LevelMainHall>k__BackingField: 3
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1500
+    <BuildingTime>k__BackingField: 9
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 1194444e0975f4fa0b8f06d10ef84fdf,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Small Garage WM 2
+    <ID>k__BackingField: 66
+    <Type>k__BackingField: Garage
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 597da98fcf57e47d79c00d66d33097d3,
+      type: 3}
+    <LevelMainHall>k__BackingField: 3
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 6500
+    <BuildingTime>k__BackingField: 9
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: ae5aae112bd30417fab762093c7c4ab9,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Small Garage WM 3
+    <ID>k__BackingField: 67
+    <Type>k__BackingField: Garage
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 70ceca77372af49e0aa2fa2a01dbcb5f,
+      type: 3}
+    <LevelMainHall>k__BackingField: 3
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.6
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 12000
+    <BuildingTime>k__BackingField: 9
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 6bf2a9bf3d5cd48b497919a6a4af6afe,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Factory LV2
+    <ID>k__BackingField: 68
+    <Type>k__BackingField: Garage
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: e643f33880b6a441d844f238173a6c68,
+      type: 3}
+    <LevelMainHall>k__BackingField: 6
+    <AirPolution>k__BackingField: 0.8
+    <SoilPolution>k__BackingField: 0.7
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 6
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 12
+    <CurrencyNeed>k__BackingField: 5000
+    <BuildingTime>k__BackingField: 18
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 10
+    <Electrictiy>k__BackingField: 6
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 8f01829fffc7c4bccb79424c16c2c927,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Product Factory LV3 WM 1
+    <ID>k__BackingField: 69
+    <Type>k__BackingField: Garage
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: c429dbf631fd747b186f1f696d861a33,
+      type: 3}
+    <LevelMainHall>k__BackingField: 6
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1500
+    <BuildingTime>k__BackingField: 18
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Product Factory LV3 WM 2
+    <ID>k__BackingField: 70
+    <Type>k__BackingField: Garage
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 53ef2c70052e94950adcc5cb694fd6c1,
+      type: 3}
+    <LevelMainHall>k__BackingField: 6
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 6500
+    <BuildingTime>k__BackingField: 18
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Product Factory LV3 WM 3
+    <ID>k__BackingField: 71
+    <Type>k__BackingField: Garage
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: bcc9d2231407746fb9bb2c2a4581059b,
+      type: 3}
+    <LevelMainHall>k__BackingField: 6
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.6
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 12000
+    <BuildingTime>k__BackingField: 18
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Factory LV3
+    <ID>k__BackingField: 72
+    <Type>k__BackingField: Garage
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: f37b193f335ec4bf897b7b32941f79c3,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 1
+    <SoilPolution>k__BackingField: 1
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 11
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 20
+    <CurrencyNeed>k__BackingField: 10000
+    <BuildingTime>k__BackingField: 108
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 15
+    <Electrictiy>k__BackingField: 6
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: c005d646af9bb4df8bc0e92498518856,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Factory LV3 WM 1
+    <ID>k__BackingField: 73
+    <Type>k__BackingField: Garage
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 4377ea70210454fb3881278295550dc4,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1500
+    <BuildingTime>k__BackingField: 108
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Factory LV3 WM 2
+    <ID>k__BackingField: 74
+    <Type>k__BackingField: Garage
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 582bc24eb29504780ac429adfdcf4664,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 6500
+    <BuildingTime>k__BackingField: 108
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Factory LV3 WM 3
+    <ID>k__BackingField: 75
+    <Type>k__BackingField: Garage
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 71363556667e749e0acafa8392437575,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.6
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Production
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 12000
+    <BuildingTime>k__BackingField: 108
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Restaurant LV1
+    <ID>k__BackingField: 76
+    <Type>k__BackingField: Restaurant
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: d27b874540e2d4faab29c6abce054c31,
+      type: 3}
+    <LevelMainHall>k__BackingField: 7
+    <AirPolution>k__BackingField: 0.2
+    <SoilPolution>k__BackingField: 0.5
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 4
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 14
+    <CurrencyNeed>k__BackingField: 300
+    <BuildingTime>k__BackingField: 1.2
+    <Food>k__BackingField: 5
+    <Mineral>k__BackingField: 3
+    <Electrictiy>k__BackingField: 5
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: c9d08054a671447f19855955414b6908,
+      type: 3}
+    <BuildingDescription>k__BackingField: Restaurant isn't just a place to eat; it's
+      a haven of taste and togetherness. With every dish served, you create smiles
+      and bring people closer.
+    <KendaraanNeed>k__BackingField: Truck
+  - <Name>k__BackingField: Restaurant LV1 WM 1
+    <ID>k__BackingField: 77
+    <Type>k__BackingField: Restaurant
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 8c4bb7a2b83284882bd4eafb1b0b212f,
+      type: 3}
+    <LevelMainHall>k__BackingField: 7
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1800
+    <BuildingTime>k__BackingField: 1.2
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Restaurant LV1 WM 2
+    <ID>k__BackingField: 78
+    <Type>k__BackingField: Restaurant
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 790897654d1b24b9fad2b360c576b8b1,
+      type: 3}
+    <LevelMainHall>k__BackingField: 7
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 8000
+    <BuildingTime>k__BackingField: 1.2
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Restaurant LV1 WM 3
+    <ID>k__BackingField: 79
+    <Type>k__BackingField: Restaurant
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: abcd5e59fbbd54c5db84585681d6e93f,
+      type: 3}
+    <LevelMainHall>k__BackingField: 7
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.6
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 14000
+    <BuildingTime>k__BackingField: 1.2
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Restaurant LV2
+    <ID>k__BackingField: 80
+    <Type>k__BackingField: Restaurant
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 37c99f758d9fd4dda85979d79e9319b9,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.8
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 6
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 32
+    <CurrencyNeed>k__BackingField: 3000
+    <BuildingTime>k__BackingField: 6
+    <Food>k__BackingField: 15
+    <Mineral>k__BackingField: 6
+    <Electrictiy>k__BackingField: 10
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 9a9c1b5fbd52e42b591880c6be2d92a5,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Restaurant LV2 WM 1
+    <ID>k__BackingField: 81
+    <Type>k__BackingField: Restaurant
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: ce9d4c37954b64570a6f8f2c9130ce96,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1800
+    <BuildingTime>k__BackingField: 6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Restaurant LV2 WM 2
+    <ID>k__BackingField: 82
+    <Type>k__BackingField: Restaurant
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 66b5642be3fb94955af5a7e7028e5772,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 8000
+    <BuildingTime>k__BackingField: 6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Restaurant LV2 WM 3
+    <ID>k__BackingField: 83
+    <Type>k__BackingField: Restaurant
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: e6c2716a11bd243d5903741d1eb9715b,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.6
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 14000
+    <BuildingTime>k__BackingField: 6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Restaurant LV3
+    <ID>k__BackingField: 84
+    <Type>k__BackingField: Restaurant
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 166200a96162746dc8a20d53a885fc79,
+      type: 3}
+    <LevelMainHall>k__BackingField: 10
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 1
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 10
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 46
+    <CurrencyNeed>k__BackingField: 9000
+    <BuildingTime>k__BackingField: 36
+    <Food>k__BackingField: 15
+    <Mineral>k__BackingField: 10
+    <Electrictiy>k__BackingField: 15
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 1982a04aca8694b4e84b6a5bca971b90,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Restaurant LV3 WM 1
+    <ID>k__BackingField: 85
+    <Type>k__BackingField: Restaurant
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 4ea30055bf8e946619313154a5649f22,
+      type: 3}
+    <LevelMainHall>k__BackingField: 10
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1800
+    <BuildingTime>k__BackingField: 36
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Restaurant LV3 WM 2
+    <ID>k__BackingField: 86
+    <Type>k__BackingField: Restaurant
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 620d2edd8fd5c4e93bb9fb1baac46a65,
+      type: 3}
+    <LevelMainHall>k__BackingField: 10
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 8000
+    <BuildingTime>k__BackingField: 36
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Restaurant LV3 WM 3
+    <ID>k__BackingField: 87
+    <Type>k__BackingField: Restaurant
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 4fc826b6ebf14428095c3b275027bc20,
+      type: 3}
+    <LevelMainHall>k__BackingField: 10
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.6
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 14000
+    <BuildingTime>k__BackingField: 36
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Shop LV1
+    <ID>k__BackingField: 88
+    <Type>k__BackingField: Shops
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: e1599654dedda4de69feae668d63e411,
+      type: 3}
+    <LevelMainHall>k__BackingField: 8
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.5
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 5
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 14
+    <CurrencyNeed>k__BackingField: 300
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 3
+    <Electrictiy>k__BackingField: 5
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 3b5986a2880d04d2ba4a7c9d2af88f06,
+      type: 3}
+    <BuildingDescription>k__BackingField: Discover what you've been looking for.
+      It's not just a store; it's your dream come true!
+    <KendaraanNeed>k__BackingField: Cart
+  - <Name>k__BackingField: Shop LV1 WM 1
+    <ID>k__BackingField: 89
+    <Type>k__BackingField: Shops
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 08f7e48f6e1174c61b6684a19936c9a4,
+      type: 3}
+    <LevelMainHall>k__BackingField: 8
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 4000
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Shop LV1 WM 2
+    <ID>k__BackingField: 90
+    <Type>k__BackingField: Shops
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: e5a2e9d81feb6429eb7013920e29013f,
+      type: 3}
+    <LevelMainHall>k__BackingField: 8
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.35
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 10000
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Shop LV1 WM 3
+    <ID>k__BackingField: 91
+    <Type>k__BackingField: Shops
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 8930f6bad5cfc4acc9b0ae895fee3119,
+      type: 3}
+    <LevelMainHall>k__BackingField: 8
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 20000
+    <BuildingTime>k__BackingField: 0.6
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Shop LV2
+    <ID>k__BackingField: 92
+    <Type>k__BackingField: Shops
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 72d1c3ce1e41e4a10b57d3b4ed7974ca,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.9
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 7
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 21
+    <CurrencyNeed>k__BackingField: 3000
+    <BuildingTime>k__BackingField: 9
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 6
+    <Electrictiy>k__BackingField: 10
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: cf7b813a93a95454d8b5c597c8f8fc3c,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Shop LV2 WM 1
+    <ID>k__BackingField: 93
+    <Type>k__BackingField: Shops
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: b60a6074bcec4444ba31c339c06e0979,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 4000
+    <BuildingTime>k__BackingField: 9
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Shop LV2 WM 2
+    <ID>k__BackingField: 94
+    <Type>k__BackingField: Shops
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: d1806f7055ccd4fdaac2539c13484fb8,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.35
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 10000
+    <BuildingTime>k__BackingField: 9
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Shop LV2 WM 3
+    <ID>k__BackingField: 95
+    <Type>k__BackingField: Shops
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 8930f6bad5cfc4acc9b0ae895fee3119,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 20000
+    <BuildingTime>k__BackingField: 9
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Shop LV3
+    <ID>k__BackingField: 96
+    <Type>k__BackingField: Shops
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: b262105fc729c49f49e659a371f8d98f,
+      type: 3}
+    <LevelMainHall>k__BackingField: 10
+    <AirPolution>k__BackingField: 0.6
+    <SoilPolution>k__BackingField: 1.1
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 12
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 36
+    <CurrencyNeed>k__BackingField: 9000
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 10
+    <Electrictiy>k__BackingField: 15
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 6ffa4b8c3a8c9445b91db7b47e28dda7,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Shop LV3 WM 1
+    <ID>k__BackingField: 97
+    <Type>k__BackingField: Shops
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: ac2cdf66732f74635938ef0c044bac88,
+      type: 3}
+    <LevelMainHall>k__BackingField: 10
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 4000
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Shop LV3 WM 2
+    <ID>k__BackingField: 98
+    <Type>k__BackingField: Shops
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: b36a55dd10af449caae85aa147db4c31,
+      type: 3}
+    <LevelMainHall>k__BackingField: 10
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.35
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 10000
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Shop LV3 WM 3
+    <ID>k__BackingField: 99
+    <Type>k__BackingField: Shops
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 1074b5de01447463a9c3218985a147ba,
+      type: 3}
+    <LevelMainHall>k__BackingField: 10
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 20000
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Station LV1
+    <ID>k__BackingField: 100
+    <Type>k__BackingField: Transportation
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 5e283ffe8eb214debbc448581d0a5e28,
+      type: 3}
+    <LevelMainHall>k__BackingField: 6
+    <AirPolution>k__BackingField: 0.2
+    <SoilPolution>k__BackingField: 0.4
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 6
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 16
+    <CurrencyNeed>k__BackingField: 500
+    <BuildingTime>k__BackingField: 1.5
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 10
+    <Electrictiy>k__BackingField: 10
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 7f87229ca7aee4756a0acf492e233b50,
+      type: 3}
+    <BuildingDescription>k__BackingField: 'Station is the heart of our city''s journeys.
+      People come and go, creating a lively buzz that makes our city feel like one
+      big family. '
+    <KendaraanNeed>k__BackingField: Truck
+  - <Name>k__BackingField: Transportation Station LV1 WM 1
+    <ID>k__BackingField: 101
+    <Type>k__BackingField: Transportation
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 2e38563ec79d7481390358d7223e74cb,
+      type: 3}
+    <LevelMainHall>k__BackingField: 6
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1700
+    <BuildingTime>k__BackingField: 1.5
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Station LV1 WM 2
+    <ID>k__BackingField: 102
+    <Type>k__BackingField: Transportation
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: bbb08203245a646ac90168cc8c8a33c6,
+      type: 3}
+    <LevelMainHall>k__BackingField: 6
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 7000
+    <BuildingTime>k__BackingField: 1.5
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Station LV1 WM 3
+    <ID>k__BackingField: 103
+    <Type>k__BackingField: Transportation
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: a711a95ea501e4ccdabfb658c1511210,
+      type: 3}
+    <LevelMainHall>k__BackingField: 6
+    <AirPolution>k__BackingField: 0.6
+    <SoilPolution>k__BackingField: 0.3
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 13000
+    <BuildingTime>k__BackingField: 1.5
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Station LV2
+    <ID>k__BackingField: 104
+    <Type>k__BackingField: Transportation
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 11f8b83bd639749b9821651c5cbda6a1,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.5
+    <SoilPolution>k__BackingField: 0.6
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 9
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 31
+    <CurrencyNeed>k__BackingField: 5000
+    <BuildingTime>k__BackingField: 12
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 15
+    <Electrictiy>k__BackingField: 20
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 3dc7677803c594f3dbb4066b3948686e,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Station LV2 WM 1
+    <ID>k__BackingField: 105
+    <Type>k__BackingField: Transportation
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 799cd5944d0eb4d4c918226906d67835,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1700
+    <BuildingTime>k__BackingField: 12
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Station LV2 WM 2
+    <ID>k__BackingField: 106
+    <Type>k__BackingField: Transportation
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: eb4d8b046e6304a33be3da38e1bb62e7,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 7000
+    <BuildingTime>k__BackingField: 12
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Station LV2 WM 3
+    <ID>k__BackingField: 107
+    <Type>k__BackingField: Transportation
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 716829fa231274d6fb50f6daedbbf875,
+      type: 3}
+    <LevelMainHall>k__BackingField: 9
+    <AirPolution>k__BackingField: 0.6
+    <SoilPolution>k__BackingField: 0.3
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 13000
+    <BuildingTime>k__BackingField: 12
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Station LV3
+    <ID>k__BackingField: 108
+    <Type>k__BackingField: Transportation
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: b0cf166de64e04abc8c03776628ad9a3,
+      type: 3}
+    <LevelMainHall>k__BackingField: 10
+    <AirPolution>k__BackingField: 0.9
+    <SoilPolution>k__BackingField: 0.7
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 14
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 46
+    <CurrencyNeed>k__BackingField: 15000
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 20
+    <Electrictiy>k__BackingField: 30
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 21300000, guid: 3dc7677803c594f3dbb4066b3948686e,
+      type: 3}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Station LV3 WM 1
+    <ID>k__BackingField: 109
+    <Type>k__BackingField: Transportation
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: b0cf166de64e04abc8c03776628ad9a3,
+      type: 3}
+    <LevelMainHall>k__BackingField: 10
+    <AirPolution>k__BackingField: 0.3
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 1700
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Station LV3 WM 2
+    <ID>k__BackingField: 110
+    <Type>k__BackingField: Transportation
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: b0cf166de64e04abc8c03776628ad9a3,
+      type: 3}
+    <LevelMainHall>k__BackingField: 10
+    <AirPolution>k__BackingField: 0.4
+    <SoilPolution>k__BackingField: 0.2
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 7000
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 0
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Transportation Station LV3 WM 3
+    <ID>k__BackingField: 111
+    <Type>k__BackingField: Transportation
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: b0cf166de64e04abc8c03776628ad9a3,
+      type: 3}
+    <LevelMainHall>k__BackingField: 10
+    <AirPolution>k__BackingField: 0.6
+    <SoilPolution>k__BackingField: 0.3
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 13000
+    <BuildingTime>k__BackingField: 54
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 0
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: Power Plant LV4
+    <ID>k__BackingField: 112
+    <Type>k__BackingField: Electricity
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: d9daf27a802224e45bd71c651aa66316,
+      type: 3}
+    <LevelMainHall>k__BackingField: 11
+    <AirPolution>k__BackingField: 0
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 5
+    <Category>k__BackingField: Distributor
+    <PopulationNeed>k__BackingField: 50
+    <CurrencyNeed>k__BackingField: 20000
+    <BuildingTime>k__BackingField: 108
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 10
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  - <Name>k__BackingField: House
+    <ID>k__BackingField: 113
+    <Type>k__BackingField: House
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefeb>k__BackingField: {fileID: 919132149155446097, guid: 094dae3be82b84fe5a893293c240def7,
+      type: 3}
+    <LevelMainHall>k__BackingField: 0
+    <AirPolution>k__BackingField: 0
+    <SoilPolution>k__BackingField: 0
+    <WaterPolution>k__BackingField: 0
+    <Currency>k__BackingField: 0
+    <Category>k__BackingField: Nature
+    <PopulationNeed>k__BackingField: 0
+    <CurrencyNeed>k__BackingField: 250
+    <BuildingTime>k__BackingField: 3
+    <Food>k__BackingField: 0
+    <Mineral>k__BackingField: 0
+    <Electrictiy>k__BackingField: 0
+    <EnergyProduction>k__BackingField: 4
+    <IsLevelMax>k__BackingField: 1
+    <ImageBuilding>k__BackingField: {fileID: 0}
+    <BuildingDescription>k__BackingField: 
+    <KendaraanNeed>k__BackingField: 
+  PlaceObject: []
+  constructionObject:
+  - <Name>k__BackingField: Construction Building
+    <ID>k__BackingField: 0
+    <Prefeb>k__BackingField: {fileID: 1360756443377294967, guid: a1f13242ceb274bd99774a0f0742278d,
+      type: 3}
+    <Size>k__BackingField: {x: 1, y: 1}
+  wasteManagements:
+  - <Name>k__BackingField: Compost Bins
+    <ID>k__BackingField: 0
+    <Description>k__BackingField: "Compost bins turn food scraps into valuable compost.
+      It\u2019s like nature\u2019s recycling!"
+    <AirPollution>k__BackingField: 
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -30%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 1000
+    <Type>k__BackingField: Farm
+  - <Name>k__BackingField: Compost Grinders
+    <ID>k__BackingField: 1
+    <Description>k__BackingField: Compost Grinder magically transforms waste into
+      nutritious compost, creating treasure from trash in record time.
+    <AirPollution>k__BackingField: 
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -50%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 5000
+    <Type>k__BackingField: Farm
+  - <Name>k__BackingField: The Digester
+    <ID>k__BackingField: 2
+    <Description>k__BackingField: The Digester turns food waste into compost and
+      biogas, helping the environment and promoting sustainability
+    <AirPollution>k__BackingField: -50%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -50%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 10000
+    <Type>k__BackingField: Farm
+  - <Name>k__BackingField: Landfill
+    <ID>k__BackingField: 3
+    <Description>k__BackingField: In our landfill, we employ safe methods, convert
+      harmful fuels, and ensure proper disposal, ensuring city cleanliness and safety.
+    <AirPollution>k__BackingField: -40%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -10%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 1000
+    <Type>k__BackingField: Minerals
+  - <Name>k__BackingField: Water Clarifier
+    <ID>k__BackingField: 4
+    <Description>k__BackingField: Water Clarifier maintains pure, safe post-mining
+      water, preserving color, content, smell, and quality for a healthier environment.
+    <AirPollution>k__BackingField: -40%
+    <WaterPollution>k__BackingField: -50%
+    <SoilPollution>k__BackingField: -10%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 5000
+    <Type>k__BackingField: Minerals
+  - <Name>k__BackingField: Bioremediation
+    <ID>k__BackingField: 5
+    <Description>k__BackingField: Bioremediation is nature's cleanup, using bacteria
+      and microorganisms to safely break down hazardous waste
+    <AirPollution>k__BackingField: -40%
+    <WaterPollution>k__BackingField: -50%
+    <SoilPollution>k__BackingField: -60%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 10000
+    <Type>k__BackingField: Minerals
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 6
+    <Description>k__BackingField: We're using smart tech and natural methods to reduce
+      harmful nitrogen oxides, making our air cleaner and our planet healthier!
+    <AirPollution>k__BackingField: -30%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: 
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 1200
+    <Type>k__BackingField: Electricity
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 7
+    <Description>k__BackingField: We clean up SO2 gas from combustion by mixing it
+      with calcium hydroxide, making our air fresher and environment healthier!
+    <AirPollution>k__BackingField: -50%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: 
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 6000
+    <Type>k__BackingField: Electricity
+  - <Name>k__BackingField: Electron Beams
+    <ID>k__BackingField: 8
+    <Description>k__BackingField: Using electron beams, we zap away harmful substances
+      from waste
+    <AirPollution>k__BackingField: -60%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: 
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 11000
+    <Type>k__BackingField: Electricity
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 9
+    <Description>k__BackingField: Sort plastic and glass in one bin, food scraps
+      in another, supporting recycling and creating compost for eco-friendly living.
+    <AirPollution>k__BackingField: -30%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -20%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 1700
+    <Type>k__BackingField: Market
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 10
+    <Description>k__BackingField: "Turn food scraps into gold for your garden with
+      this composting marvel\u2014where waste becomes nourishing compost"
+    <AirPollution>k__BackingField: -30%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -40%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 7500
+    <Type>k__BackingField: Market
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 11
+    <Description>k__BackingField: This center composts organic waste, recycles plastic,
+      paper, and sorts glass and metal, ensuring a cleaner, greener city environment!
+    <AirPollution>k__BackingField: -40%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -60%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 13000
+    <Type>k__BackingField: Market
+  - <Name>k__BackingField: Cyclone Separator
+    <ID>k__BackingField: 12
+    <Description>k__BackingField: The Cyclone Separator helps clean gas emissions,
+      although it's not perfect with tiny particles, making our air a bit cleaner.
+    <AirPollution>k__BackingField: 
+    <WaterPollution>k__BackingField: -40%
+    <SoilPollution>k__BackingField: -20%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 2000
+    <Type>k__BackingField: Garage
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 13
+    <Description>k__BackingField: Collect glass, metal, and plastic, recycling them
+      to preserve our planet and create a cleaner, greener city!
+    <AirPollution>k__BackingField: -50%
+    <WaterPollution>k__BackingField: -40%
+    <SoilPollution>k__BackingField: -20%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 9000
+    <Type>k__BackingField: Garage
+  - <Name>k__BackingField: Gas Scrubbers
+    <ID>k__BackingField: 14
+    <Description>k__BackingField: Employ advanced gas scrubbers in industries and
+      power plants, effectively removing pollutants like NOx, CO2, and SO2 from emissions
+    <AirPollution>k__BackingField: -50%
+    <WaterPollution>k__BackingField: -60%
+    <SoilPollution>k__BackingField: -30%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 16000
+    <Type>k__BackingField: Garage
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 15
+    <Description>k__BackingField: A tank made of corrosion-resistant materials used
+      to store liquid waste, including hazardous chemicals.
+    <AirPollution>k__BackingField: -50%
+    <WaterPollution>k__BackingField: -60%
+    <SoilPollution>k__BackingField: -30%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 1500
+    <Type>k__BackingField: Factory
+  - <Name>k__BackingField: Filtration
+    <ID>k__BackingField: 16
+    <Description>k__BackingField: 'Filtration: using filters to separate particles
+      or solids from liquids'
+    <AirPollution>k__BackingField: -30%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -40%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 6500
+    <Type>k__BackingField: Factory
+  - <Name>k__BackingField: Chemical Reactor
+    <ID>k__BackingField: 17
+    <Description>k__BackingField: In chemical waste management, a chemical reactor
+      works by transforming waste properties and eliminating contaminants
+    <AirPollution>k__BackingField: -40%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -60%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 12000
+    <Type>k__BackingField: Factory
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 18
+    <Description>k__BackingField: These centers sort non-organic and organic waste,
+      enabling recycling and reducing landfill waste
+    <AirPollution>k__BackingField: -30%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -20%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 4000
+    <Type>k__BackingField: Shops
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 19
+    <Description>k__BackingField: Turning scraps into compost, organic waste composting
+      enriches soil, creating a greener city, one pile at a time, nature's recycling!
+    <AirPollution>k__BackingField: -40%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -35%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 10000
+    <Type>k__BackingField: Shops
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 20
+    <Description>k__BackingField: Manages plastic, paper, cardboard, glass, and metal
+      waste, ensuring proper collection and recycling, contributing to a cleaner,
+      greener city.
+    <AirPollution>k__BackingField: -50%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -40%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 20000
+    <Type>k__BackingField: Shops
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 21
+    <Description>k__BackingField: Here, non-organic and organic waste is responsibly
+      sorted
+    <AirPollution>k__BackingField: -30%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -20%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 1800
+    <Type>k__BackingField: Restaurant
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 22
+    <Description>k__BackingField: Transforming kitchen scraps into nutrient-rich
+      compost, organic waste composting is a simple, eco-friendly way to recycle
+      and enrich the soil
+    <AirPollution>k__BackingField: -30%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -40%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 8000
+    <Type>k__BackingField: Restaurant
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 23
+    <Description>k__BackingField: 'We compost organic waste and recycle plastics,
+      paper, cardboard, glass, and metal, keeping our environment clean and eco-friendly. '
+    <AirPollution>k__BackingField: -40%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -60%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 14000
+    <Type>k__BackingField: Restaurant
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 24
+    <Description>k__BackingField: Potted plants at the hub beautify, manage waste
+      by reducing litter, and refresh the air, creating a pleasant environment.
+    <AirPollution>k__BackingField: -30%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: 
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 1700
+    <Type>k__BackingField: Transportation
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 25
+    <Description>k__BackingField: Turning the area into a big, beautiful garden is
+      like giving our transportation hub a friendly makeover
+    <AirPollution>k__BackingField: -40%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -20%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 7000
+    <Type>k__BackingField: Transportation
+  - <Name>k__BackingField: No Name
+    <ID>k__BackingField: 26
+    <Description>k__BackingField: Green spaces near the hub enhance beauty, promote
+      waste management, fostering a cleaner, greener environment in our city.
+    <AirPollution>k__BackingField: -60%
+    <WaterPollution>k__BackingField: 
+    <SoilPollution>k__BackingField: -30%
+    <Image>k__BackingField: {fileID: 0}
+    <CurrencyNeeds>k__BackingField: 13000
+    <Type>k__BackingField: Transportation
